@@ -15,6 +15,14 @@
         mhs1.updateIpk(3.60);
         System.out.println("=== Informasi Kedua ===");
         mhs1.tampilkanInformasi();
+        
+        mahasiswa14 mhs2 = new mahasiswa14("Annisa Nabila","2141720160", 3.25,"TI 2L");
+        mhs2.updateIpk(3.30);
+        mhs2.tampilkanInformasi();
+
+        mahasiswa14 mhs3 = new mahasiswa14("Rizky Pratama","2041720150", 3.56,"SI 2M");
+        mhs3.updateIpk(3.95);
+        mhs3.tampilkanInformasi();
     }
 }
     
