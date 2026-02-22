@@ -14,12 +14,17 @@ class mahasiswa14 {
     void ubahKelas(String kelasBaru) {
         kelas = kelasBaru;
     }
-
+    // soal no 4
     void updateIpk(double ipkBaru) {
-        ipk = ipkBaru;
+        if (ipkBaru >= 0.0 && ipkBaru <= 4.0) {
+            ipk = ipkBaru;
+        } else {
+            System.out.println("IPK tidak valid. Harus antara 0.0 dan 4.0");
+        }
     }
-
-    String nilaiKinerja() {
+    // ===================================================
+    // soal no 5
+       String nilaiKinerja() {
         if (ipk >= 3.5) {
             return "Kinerja sangat baik";
         } else if (ipk >= 3.0) {
